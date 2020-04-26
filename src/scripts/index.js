@@ -53,8 +53,6 @@ function setMasterAnimation() {
         .add(setCompanyNameAnimation(), "-=0.5")
         .add(setInfiniteRotation1(), "-=1");
 
-    // setTimeout(()=> masterTL.pause(), 6000);
-    // setTimeout(()=> masterTL.play(), 8000);
 }
 
 const button = document.getElementById('play');
